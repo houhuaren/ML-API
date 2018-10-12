@@ -1,0 +1,140 @@
+API 是一套用于构建软件程序的协议和工具。对于应用开发者而言，有了开放的 API，就可以直接调用其他公司做好的功能为我所用，这在很大程度上提升了工作效率。
+
+本文整理了以下四大类共 50 种 API，为你节省了寻找资源的时间。总之，你所需要的可能基本都在下面了：
+
+人脸和图像识别（Face Image Recognition）
+文本分析，自然语言处理，情感分析（Text Analysis, NLP, Sentiment Analysis）
+语言翻译（Language Translation）
+机器学习与预测（Machine Learning prediction）
+
+▌人脸和图像识别
+
+1、Animetrics Face Recognition：该 API 可用于检测图片中的人脸，并将其与一组已知的人脸数据集进行匹配。 API 还可以添加或删除可搜索图库中的对象，
+并添加或删除某一分类中的人脸。
+
+2、Betaface：面部识别和检测 Web 服务。其特点包括多人脸检测、人脸裁剪、123 个人脸特征点检测、人脸验证与识别、以及在大规模数据库中进行相似性搜索。
+
+3、Eyedea Recognition：专注于高端计算机视觉的解决方案，主要是对象检测和对象识别软件。识别内容包括眼睛、脸部、车辆、版权和车牌检测。 该 API 的
+主要作用在于可以即时理解目标，用户以及行为。
+
+4、Face++：面部识别和检测服务，可在于应用程序中的检测、识别和分析。用户可以用其进行模型训练、人脸检测、人脸识别、人脸分组、创建人脸数据集及获取
+信息。
+
+5、FaceMark：该 API 能够检测到人脸正面照片上的 68 个特征点，以及侧脸照片上的 35 个特征点。
+
+6、FaceRect：一款功能强大且完全免费的人脸检测 API 。该 API 可在一张照片上查找单个人脸（正面和侧面）或多个人脸，并为找到的每个人脸生成 JSON 输出。
+此外，FaceRect 可以为每个检测到的人脸找到人脸特征（眼睛、鼻子和嘴巴）。
+
+7、Google Cloud Vision API：该 API 由 TensorFlow 等强大的平台驱动，能够让模型进行学习和预测图像内容。它可以帮你找到感兴趣的图像，并迅速获得丰
+富的注释。它将图像分为数千个类别（如船、狮子和埃菲尔铁塔），能检测相关人脸表情，并识别多种语言的印刷文字。
+
+8、IBM Watson Visual Recognition：理解图像-视觉概念内容，进行图像标注、查找人脸、估计年龄和性别，并在集合中查找类似图像，还可以通过自定义概念来
+重新训练服务。
+
+9、Imagga：提供可自动将标签分配给图像的 API，使图像更易于找到。它是基于 PaaS 的图像识别 API。
+
+10、Kairos：它可快速将情绪分析和人脸识别功能添加到应用和服务平台。
+
+11、Microsoft Cognitive Service - Computer Vision：该云 API 可以基于用户输入和选择以不同方式分析视觉内容。 如基于内容标记图像，对图片进行分类，
+检测人脸并返回它们的坐标，识别指定领域的内容，生成内容的描述，识别图像中的文本，标记成人内容。
+
+12、Skybiometry Face Detection and Recognition：该 API 提供人脸检测和识别服务，最新版的 API 中还能够区分墨镜和透明眼镜。
+
+13、ParallelDots Visual Analytics API：可自动标记图像，过滤不适当的内容，识别情绪。
+
+▌文本分析、NLP 和情绪分析
+
+1、Bitext：提供市面上最精确的基于多语言主题的情绪分析。目前提供四种语义服务：实体和概念提取、情绪分析和文本分类。该 API 支持 8 种语言。
+
+2、Diffbot Analyze：它是为开发人员提供的工具，可以识别、分析和提取任何网页上的主要内容。
+
+3、Free Natural Language Processing Service：它是一个包含情感分析、内容提取和语言检测的免费服务。
+
+4、Google Cloud Natural Language API：用于分析文本结构和含义，包括情感分析、实体识别和文本注释。
+
+5、Watson Natural Language Understanding：分析文本从而在内容中提取元数据，例如概念、实体、关键词、类别、关系和语义角色。
+
+6、MeaningCloud Text Classification：该 API 能实现预分类任务功能，如文本提取、分词、移除停用词、词形还原。
+
+7、Microsoft Cognitive Service - Text Analytics：从文本中检测情绪、关键短语、主题和语言。属于同一类（面向语言的认知服务）的其他 API 包括 
+Bing 拼写检查、语言理解、语言分析以及 Web 语言模型。
+
+8、nlpTools：是用于自然语言处理的一个基于 RESTful 的 HTTP Web 服务的简单 JSON。它可解码网络新闻媒体，用于情绪分析和文本分类。
+
+9、Geneea：可以对提供的原始文本、从给定 URL 中提取的文本或直接提供的文档进行分析（自然语言处理）。 
+
+10、ParallelDots Text Analytics APIs：在 14 种不同语言的基础上提供了方便且多样的一套自然语言理解（NLU）算法。ParallelDots 自定义分类器还
+允许你在自定义类别上构建文本分类器，且无需任何训练数据。
+
+11、Thomson Reuters Open Calais™：使用自然语言处理、机器学习及其他方法，Calais 可以通过实体（人、地点和组织等）、事实（人“x”在公司“y”工作）
+和事件（人“z” 在“x”日被任命为公司“y”的董事长）将文档归类和链接。 
+
+12、Yactraq Speech2Topics：它是一项云服务，通过语音识别和自然语言处理将音视频内容转换为主题元数据。
+
+▌语言翻译
+
+1、Google Cloud Translation：该 API 可以在数千个语言对之间动态翻译文本。它允许网站和程序以编程方式与翻译服务集成。
+
+2、Google Cloud SPEECH-TO-TEXT：让开发人员能够运用强大的神经网络模型，将音频转换成文本。该 API 可识别 120 种语言和变体，以支持全球用户群。
+
+3、IBM Watson Language Translator：将文本从一种语言翻译为另一种语言。该服务提供了多个特定领域模型，可以根据独特术语和语言进行自定义。
+
+4、MotaWord：是一个快速的人工翻译平台。它提供超过 70 种语言的翻译。该 API 还可让开发人员获取翻译报价，提交包括文档和样式指南的翻译项目，跟踪翻译
+项目的进度并实时获取活动信息。 
+
+5、WritePath Translation：该 API 允许开发人员访问 WritePath 的功能，并与其他应用程序集成。使用该 API 可以完成的操作包括：获取字数，发布翻译文
+档以及检索已翻译的文档和文本。
+
+6、Houndify：通过一个不断学习的独立平台，将语音和会话智能集成到产品中。
+
+7、IBM Watson Conversation：构建可理解自然语言的聊天机器人，并将它们部署在消息发送平台和网站上。 属于同一类（面向语言的认知服务）的其他 API 包
+括对话、自然语言分类器、个性观点、文档转化、以及音调分析器等功能。
+
+8、IBM Watson Speech：包括语音到文本和文本到语音 ( 如在呼叫中心转录通话，或创建语音控制的应用程序）的转换。
+
+▌机器学习与预测
+
+1、Amazon Machine Learning：查找数据中的模式。该 API 的几种典型应用包括：检测欺诈、预测需求、精准营销和点击预测。
+
+2、BigML：提供云托管的机器学习和数据分析服务。用户可以设置数据源并通过标准的 HTTP 创建模型来处理基本的监督和无监督机器学习任务。
+
+3、Google Cloud Prediction：提供一个 RESTful API 来构建机器学习模型。这些工具可以帮助分析数据，为应用程序添加各种功能，例如客户情绪分析、垃圾邮
+件检测、推荐系统等。
+
+4、co：为电子商务网站提供产品推荐引擎。
+
+5、Hu:toma：帮助世界各地的开发人员构建商用级别的深度学习聊天机器人。它提供免费访问的专有平台，该平台提供了创建和共享对话式 AI 的工具和渠道。 
+
+6、IBM Watson Retrieve and Rank：开发人员可以将他们的数据加载到服务中，使用已知的相关结果来训练机器学习模型（Rank）。服务输出包括相关文档和元数据。
+
+7、indico：提供文本分析（如情感分析、社交活动和情绪）和图像分析（例如面部情绪和面部定位）。indico API 可以免费使用，不需要训练数据。
+
+8、Microsoft Azure Cognitive Service API：该 API 正在取代提供基于预测分析的 Azure 机器推荐服务。它为客户提供个性化的产品推荐并促进销售量。新版
+本支持批处理，具备更好的 API 管理器、更干净的 API 接口、更一致的注册/计费体验等。
+
+9、Microsoft Azure Anomaly Detection API：使用时间间隔均匀的数值检测时序数据中的异常事件。比如在监视内存使用情况时，上升趋势可能意味着内存泄漏。
+
+10、Microsoft Cognitive Service - QnA Maker： 将信息提炼成对话式并易于浏览的答案。属于同一类（面向知识的认知服务）的其他 API 包含学术知识、实体
+链接、知识探索和推荐。
+
+11、Microsoft Cognitive Service - Speaker Recognition：使应用程序具有识别讲话者的能力。 属于同一类（面向语音的认知服务）的其他 API 包括 Bing 
+语音（语音与文本互相转换并理解其意图）和 自定义识别。
+
+12、MLJAR：为原型设计、开发和部署模式识别算法提供服务。
+
+13、NuPIC：是一个用 Python/C++ 编写的开源项目，可以实现 Numenta's Cortical 学习算法，由 NuPIC 社区维护。 API 允许开发人员使用原始算法，将多个
+区域（包括层次结构）串联起来，并利用其他平台功能。
+
+14、PredicSis：为大数据提供强大的洞察力，并通过预测分析提高营销能力。
+
+15、PredictionIO：是在 Apache 2.0 许可下发布的基于 Apache Spark，HBase 和 Spray 的开源机器学习服务器。典型的 API 方法包括创建、管理用户和用户
+记录、检索项目和内容以及基于用户创建和管理推荐。
+
+16、RxNLP - Cluster Sentences and Short Texts：文本挖掘和自然语言处理服务。 Cluster Sentences API 是其之一，可以将句子（例如来自多篇新闻文章
+的句子）或短文本（例如来自 Twitter 或 Facebook 状态更新的文章）转换为逻辑分组。
+ 
+17、Recombee：通过 RESTful API 提供数据挖掘、语言查询和机器学习算法（例如协同过滤和基于内容的推荐）的服务。
+
+作者：Pedro Lopez, KDnuggets
+原文链接：
+https://www.kdnuggets.com/2018/05/50-useful-machine-learning-prediction-apis-2018-edition.html
